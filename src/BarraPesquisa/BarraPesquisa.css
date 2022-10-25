@@ -1,0 +1,22 @@
+.box{
+    display: flex;
+    width: 100%;
+    margin: 15px 0;
+    gap: 10px;
+    height: 40px;
+    align-items: center;
+}
+.searchbar{
+    padding: 0px 10px;
+    height: 40px;
+    background: #444;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #eee;
+    flex: 2;
+}
+.buttonContainer{
+    flex: 1;
+}
