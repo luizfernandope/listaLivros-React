@@ -1,10 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .box{
     display: flex;
-    width: 100%;
-    margin: 15px 0;
     gap: 10px;
-    height: 40px;
-    align-items: center;
 }
 .searchbar{
     padding: 0px 10px;
@@ -17,6 +17,7 @@
     color: #eee;
     flex: 2;
 }
-.buttonContainer{
+.btn{
+    height: 40px;
     flex: 1;
 }
